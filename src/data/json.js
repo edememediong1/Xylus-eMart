@@ -1,6 +1,10 @@
+import cake from "../assets/cake.jpg"
+
+
 const market = [
     {
         name: "Fish",
+        image: cake,
         product_id: 1,
         description: "Salmon Fish, well cooked and canned for your delight"
     },

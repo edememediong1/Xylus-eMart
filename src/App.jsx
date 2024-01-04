@@ -8,7 +8,7 @@ function App() {
       <div key={item}>
         <li>{item.name}</li>
         <li>{item.description}</li>
-        <li>{item.product_id}</li>
+        <img src={item.image} alt="cake" style= >
       </div>
     )
   })
