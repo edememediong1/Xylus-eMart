@@ -1,3 +1,5 @@
+
+
 function Products(prop){
     return (
         <div>
@@ -7,3 +9,5 @@ function Products(prop){
         </div>
     )
 }
+
+export default Products;

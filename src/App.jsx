@@ -1,5 +1,6 @@
 import Navbar from "./Components/navbar"
 import market from "./data/json"
+import Product from "./Components/products"
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      <div>{products}</div>
+      {products}
     </section>
   );
 
