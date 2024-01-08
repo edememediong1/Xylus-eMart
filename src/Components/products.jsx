@@ -2,10 +2,10 @@
 
 function Products(prop){
     return (
-        <div>
+        <div className="">
             <li>{prop.name}</li>
             <li>{prop.product_id}</li>
-            <img src={prop} alt={prop.name}/>      
+            <img src={prop.image} alt={prop.name}/>      
         </div>
     )
 }

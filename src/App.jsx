@@ -19,7 +19,9 @@ function App() {
       <header>
         <Navbar/>
       </header>
-      {products}
+      <main className="product-display">
+        {products}
+      </main>
     </section>
   );
 
