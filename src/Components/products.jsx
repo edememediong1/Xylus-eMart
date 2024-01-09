@@ -2,7 +2,7 @@
 
 function Products(prop){
     return (
-        <div className="">
+        <div className=" bg-red-700">
             <li>{prop.name}</li>
             <li>{prop.product_id}</li>
             <img src={prop.image} alt={prop.name}/>      

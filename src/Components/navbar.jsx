@@ -7,7 +7,7 @@ function Navbar(){
                 <a href="/">Restaurant</a>
                 <a href="/">Learn</a>
             </div>
-            <div className="header-end">
+            <div className="text-3xl font-bold underline">
                 <a href="/">Contact</a>
                 <a href="/">Cart</a>
             </div>

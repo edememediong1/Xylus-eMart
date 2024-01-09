@@ -1,6 +1,8 @@
 import Navbar from "./Components/navbar"
 import market from "./data/json"
 import Product from "./Components/products"
+import  "./index.css";
+import "./App.css";
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
     )
   })
 
+ 
   return (
     <section>
       <header>
