@@ -1,11 +1,12 @@
 
 
-function Products(prop){
+function Products({name, product_id, image, description}){
     return (
         <div className=" bg-red-700">
-            <li>{prop.name}</li>
-            <li>{prop.product_id}</li>
-            <img src={prop.image} alt={prop.name}/>      
+            <h1>{name}</h1>
+            <p>{product_id}</p>
+            <img src={image} alt={name}/>   
+            <p>{description}</p>   
         </div>
     )
 }

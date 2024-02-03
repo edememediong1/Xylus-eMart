@@ -7,13 +7,7 @@ import "./App.css";
 
 function App() {
   const products = market.map((item) => {
-    return (
-      <div key={item}>
-        <li>{item.name}</li>
-        <li>{item.description}</li>
-        <img src={item.image} alt="cake" />
-      </div>
-    )
+    return <Product {...item} />
   })
 
   return (
@@ -22,7 +16,7 @@ function App() {
         <Navbar/>
       </header>
       <main className="product-display">
-        {products}
+      {products}
       </main>
     </section>
   );
